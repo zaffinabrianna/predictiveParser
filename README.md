@@ -9,3 +9,4 @@
 ##  Dependencies and Version Used
 
 ## Reflection
+Inherently, figuring out how to logically put a parsing table and make a parser into code was difficult. 
