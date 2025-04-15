@@ -1,9 +1,9 @@
 # predictiveParser
 
-# Setup Instructions
+## Setup Instructions
 
-# Code Explination
+## Code Explanation
 
-#  Dependencies and Version Used
+##  Dependencies and Version Used
 
-# Reflection
+## Reflection
