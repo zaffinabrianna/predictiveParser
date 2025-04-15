@@ -3,7 +3,7 @@
 # Professor Venkatesh
 # 21 April 2025
 
-# Creating Predictive Parsing Table:
+# Creating Predictive Parsing Table (map/dictionary):
 parseTable = {
     'E':{
         'a':['T', "E'"], # FIRST of E (for E->TE')
