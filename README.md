@@ -3,6 +3,11 @@
 ## Setup Instructions
 1. Download the parser.py file and put it into your IDE, ensuring you have a Python debugger installed. 
 2. The main() has all of the test strings, so all you have to do is run the code in your IDE, and it will provide the given output.
+3. If you would like to add different tests, edit the test list in main().
+             After "(aa)" add:
+             "(aa)",
+             "YOUR TEST CASE"
+             ]
 
 ## Code Explanation
 My code uses a map/dictionary to create a parsing table using the table provided in the assignment. 
