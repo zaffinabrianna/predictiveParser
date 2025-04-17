@@ -5,12 +5,9 @@
 2. The main() has all of the test strings, so all you have to do is run the code in your IDE, and it will provide the given output.
 3. If you would like to add different tests, edit the test list in main().
    
-             After "(aa)" add:
-   
+             Change ..."(aa)" to:
              "(aa)",
-   
              "YOUR TEST CASE"
-   
              ]
 
 ## Code Explanation
