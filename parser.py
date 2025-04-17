@@ -41,6 +41,10 @@ states = ['E', 'T', "E'", "T'", 'F', 'ε']
 def parse(inputs):
     inputs = inputs.replace(" ", "").strip() # Gets rid of any whitespace in the code
     
+    # Adds $ at end if it isn't already
+    if not inputs.endswith('$'): # Checks if at the end of inputs it has $
+        inputs += '$' # If it doesn't add it
+
     # Checking to see if all characeters in the string have valid terms and states
     for char in inputs:  
         if char not in terms and char not in states:
@@ -95,7 +99,8 @@ def main():
         "(a +a)*a$",
         "a*(a/a) $",
         "a(a+a) $",
-        "(a+a) e $"
+        "(a+a) e $",
+        "(aa)"
     ]
 
     for testNum, stringTests in enumerate(test, 1): # Increase the test number and go to the next string
